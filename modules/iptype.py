@@ -5,5 +5,3 @@ def ipType(ip):
         return "IPv6"
     else:
         return "helytelen"
-
-print(ipType(input()))
