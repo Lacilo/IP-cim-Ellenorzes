@@ -30,7 +30,7 @@ def check(cim):
                     elem = "0"
                 elem = int(elem, 16)
                 ip_elemek = cim.split(":")
-                if not -1 < elem < 65536 and (len(ip_elemek) != 8 or rovidites_sz == 1) or len(ip_elemek) > 8:
+                if not -1 < elem < 65536 and (len(ip_elemek) != 8 and rovidites_sz == 1) or len(ip_elemek) > 8:
                     helyes = False
                 elif ip_elemek[-1] == "" and ip_elemek[-2] != "":
                     helyes = False
