@@ -43,8 +43,3 @@ def check(cim):
             
     if rovidites_sz <= 1:
         return helyes
-    
-
-cim = input("kérem az ip címet --> ")
-
-print(check(cim))
